@@ -75,7 +75,7 @@ public class CalcDemo {
         String exam = in.nextLine();
         
         calc.calculate(exam);
-               
+        in.close();       
     }
     
 }
