@@ -21,5 +21,6 @@ public class Triangle {
         TriangleNumber tr = new TriangleNumber(number);
         int result = tr.calculate();
         System.out.println(result);
+        in.close();
     }
 }
