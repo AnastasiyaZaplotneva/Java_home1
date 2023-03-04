@@ -72,6 +72,7 @@ public class CalcDemo {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
         Scanner in = new Scanner(System.in);
+        calc.help();
         String exam = in.nextLine();
         
         calc.calculate(exam);
